@@ -78,3 +78,4 @@ if uploaded_file is not None:
             st.write(f"**{label}** : {prediction[idx]*100:.2f}%")
 else:
     st.warning("Please upload a scan to start diagnosis.")
+
